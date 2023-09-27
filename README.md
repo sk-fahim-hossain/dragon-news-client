@@ -1,7 +1,7 @@
 # React + Vite
 
 Features:
-<p>user can read news</p>
-/authentication with email and password
-/redirect after login on the expected page
-/category-based news  
+<p>1.user can read news</p>
+<p>2.authentication with email and password</p>
+<p>3.redirect after login on the expected page</p>
+<p>4.category-based news  </p>
