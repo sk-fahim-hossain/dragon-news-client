@@ -10,7 +10,7 @@ import third from '../../../assets/3.png'
 const LeftNav = () => {
     const [categories, setCategories] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/categories')
+        fetch('https://dragon-news-server-3poqmd8ll-fahim-hossains-projects.vercel.app/categories')
             .then(res => res.json())
             .then(data => setCategories(data))
             .catch(error => console.error(error))
